@@ -6,7 +6,7 @@ int freq1=0,freq2=0,freq3=0,freq4=0,freq5=0,freq6=0,freq7=0,freq8=0,freq9=0,freq
 printf("\n INput a value and then the frequency of all the digits will be shown");
 scanf("%ld", &input);
 
-while(input >= 0){
+while(input != 0){
 	if (input % 10 == 1){
 		freq1 += 1;
 		input /= 10;
