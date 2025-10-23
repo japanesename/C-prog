@@ -1,8 +1,9 @@
 #include<stdio.h>
 void main(){
-    int counter = 0, global, counter2 = 0;
-
-    for (int number = 1; counter2 <= 100; number++){
+    int counter = 0, global, counter3 = 0,in_value;
+    printf("\n Input number of primes:");
+    scanf("%d", &in_value);
+    for (int number = 1; counter3 <= in_value; number++){
         counter = 0;
         for (int primecount = 1; primecount<=number; primecount++){
 
@@ -14,7 +15,7 @@ void main(){
 
         if (counter == 2){
             printf("%d ", global);
-            counter2 += 1;
+            counter3++;
         }
     }
 }

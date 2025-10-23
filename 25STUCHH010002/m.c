@@ -28,7 +28,6 @@ for (int i = 0;i < rows;i++){
 }
 
 //transpose
-
 printf("\n Transpose:\n");
 for (int i = 0;i < cols;i++){
 	for (int j = 0;j < rows;j++){
